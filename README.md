@@ -1,18 +1,16 @@
-# Salesforce DX Project: Next Steps
+## DISCLAIMER
+- The code example provided is sample code and should be treated as pseudo code. Please refer to it only for guidance. 
+- Thoroughly review the code in this repository and then design, author and test any new code you write before deploying to production.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Files Included Here
+- ArchiveAttachmentMapper Class - https://github.com/abychat/archiveRecordFileMapper/tree/master/force-app/main/default/classes
+- Archive File Reference Link Object - https://github.com/abychat/archiveRecordFileMapper/tree/master/force-app/main/default/objects/Archived_Record_File_Reference__c
+- Case Object Field for lookup to Archive File Reference Link - https://github.com/abychat/archiveRecordFileMapper/tree/master/force-app/main/default/objects/Case/fields
+- Archive Case External Object fields for link to Archive File Rference Link - https://github.com/abychat/archiveRecordFileMapper/blob/master/force-app/main/default/objects/cache_case__x/fields/archived_record_file_reference_c__c.field-meta.xml
 
-## How Do You Plan to Deploy Your Changes?
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+## Schedulable Apex
 
-## Configure Your Salesforce DX Project
+Learn more about Schedulable Apex @ https://trailhead.salesforce.com/en/content/learn/modules/asynchronous_apex/async_apex_scheduled
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
 
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
